@@ -1,0 +1,29 @@
+.navBar {
+    width: 90%;
+    height: 100%;
+}
+
+.navBar ul {
+    list-style: none;
+    font-size: 140%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+.navBar ul li {
+    margin-right: 5%;
+    transition: .3s background-color;
+    height: 100%;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
