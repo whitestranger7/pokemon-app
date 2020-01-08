@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Navigation.css';
+import './Navigation.scss';
 import NavBar from './NavBar/NavBar';
 import Logo from './Logo';
 
