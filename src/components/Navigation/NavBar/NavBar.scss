@@ -17,12 +17,12 @@
             width: 25%;
             & a {
                 text-decoration: none;
-                color: rgba(255, 255, 255, 0.9);
-                /* font-family: 'Montserrat Alternates', sans-serif; */
+                color: rgba(255, 255, 255, 0.301);
                 font-family: 'Open Sans', sans-serif;
                 transition: .5s all;
+                text-transform: uppercase;
                 &:hover {
-                    color: #f4b350;
+                    color: #fff;
                 }
             }
         }

@@ -6,11 +6,11 @@ const buttons = props => {
     let button = null;
     if (props.btn === "hero_btn") {
         button = (
-            <button class="learn-more">
-                <span class="circle">
-                    <span class="icon arrow"></span>
+            <button className="learn-more">
+                <span className="circle">
+                    <span className="icon arrow"></span>
                 </span>
-                <span class="button-text">Learn More</span>
+                <span className="button-text">Learn More</span>
             </button>
         );
     }
