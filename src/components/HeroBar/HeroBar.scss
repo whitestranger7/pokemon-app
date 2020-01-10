@@ -1,7 +1,10 @@
 .heroBar {
-    width: 43rem;
+    width: 50rem;
     height: auto;
     margin: 10rem auto 0 auto;
+    animation-name: fadeInHero;
+    -webkit-animation-name: fadeInHero;
+    animation-duration: 2s;
     & .heroBar_bg {
         width: 100%;
         height: auto;
@@ -11,8 +14,23 @@
             font-size: 3rem;
             text-transform: uppercase;
             margin: 0;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             word-spacing: .5rem;
         }
+    }
+}
+
+@keyframes fadeInHero {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 150%, 0);
+        -ms-transform: translate3d(0, 150%, 0);
+        transform: translate3d(0, 150%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 }
