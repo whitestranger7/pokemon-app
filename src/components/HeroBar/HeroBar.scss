@@ -1,18 +1,18 @@
 .heroBar {
-    width: 50rem;
+    width: 43rem;
     height: auto;
-    margin: 8rem 0 0 5rem;
+    margin: 10rem auto 0 auto;
     & .heroBar_bg {
         width: 100%;
         height: auto;
-        background: darken($color: #67809f, $amount: 20%);
-        padding: 1.5rem;
         border-radius: 1rem;
         & h1 {
-            color: lighten($color: #fabe58, $amount: 20%);
+            color: #fff;
             font-size: 3rem;
             text-transform: uppercase;
             margin: 0;
+            font-family: 'Roboto', sans-serif;
+            word-spacing: .5rem;
         }
     }
 }
