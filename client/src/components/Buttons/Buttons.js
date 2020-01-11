@@ -10,7 +10,7 @@ const buttons = props => {
                 <span className="circle">
                     <span className="icon arrow"></span>
                 </span>
-                <span className="button-text">Learn More</span>
+                <span className="button-text">Подробнее</span>
             </button>
         );
     }

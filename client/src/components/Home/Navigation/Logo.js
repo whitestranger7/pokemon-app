@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Navigation.scss';
-import navLogo from './../../assets/img/logo.png';
+import navLogo from './../../../assets/img/logo.png';
 
 const logo = () => {
     return (

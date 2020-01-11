@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './HeroBar.scss';
-import Button from './../Buttons/Buttons';
+import Button from './../../Buttons/Buttons';
 import Arrow from './Arrow/Arrow';
 
 const heroBar = (props) => {
