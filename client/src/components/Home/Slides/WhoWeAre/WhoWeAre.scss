@@ -1,0 +1,43 @@
+.master {
+    margin: 3rem 0;
+}
+
+.sub {
+    margin-bottom: 4rem;
+}
+
+.header_container {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon,
+.title {
+    display: inline-block;
+    height: 100%;
+}
+
+.icon {
+    font-size: 4rem;
+    color: #F26522;
+    width: 4rem;
+}
+
+.title{
+    margin-left: 3rem;
+    & h5{
+        margin: 0;
+        font-size: 1.7rem;
+    }
+}
+
+.advantage_description {
+    margin-top: 1rem;
+    font-family: "Merriweather", serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.941;
+    color: rgba(0, 0, 0, 0.65);
+}

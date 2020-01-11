@@ -7,7 +7,7 @@ const arrow = () => {
         <div className="arrow_container">
             <a href="/#">
                 <div className="arrow">
-                    <i class="fa fa-chevron-down"></i>
+                    <i className="fa fa-chevron-down"></i>
                 </div>
             </a>
         </div>

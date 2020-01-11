@@ -12,7 +12,7 @@ const home = () => {
             <div className="hero_img">
                 <Navigation />
                 <Socials />
-                <HeroBar heroText="Окунись в мир незабываемых путешествий с Pokemon" />
+                <HeroBar heroText="Посетите Беларусь с Visa Free и Pokemon" />
             </div>
             <WhoWeAre />
         </Fragment>
