@@ -1,0 +1,35 @@
+.services_container {
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8) ), url('./../../../../assets/main-page-display.jpg');
+    margin: 7rem auto 0 auto;
+}
+
+.services_container .slide_container .inner_container .header_description h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 7rem;
+}
+
+.col {
+    min-width: 10rem;
+}
+
+.services_col_container {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5rem;
+    & .header {
+        color: darken($color: #F26522, $amount: 15%);
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    };
+    & .description {
+        color: #fff;
+
+    }
+}

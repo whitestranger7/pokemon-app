@@ -5,6 +5,7 @@ import Navigation from "./Navigation/Navigation";
 import Socials from "./Socials/Socials";
 import HeroBar from "./HeroBar/HeroBar";
 import WhoWeAre from "./Slides/WhoWeAre/WhoWeAre";
+import OurServices from './Slides/OurServices/OurServices';
 
 const home = () => {
     return (
@@ -15,6 +16,7 @@ const home = () => {
                 <HeroBar heroText="Посетите Беларусь с Visa Free и Pokemon" />
             </div>
             <WhoWeAre />
+            <OurServices />
         </Fragment>
     );
 };
