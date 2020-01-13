@@ -6,6 +6,7 @@ import Socials from "./Socials/Socials";
 import HeroBar from "./HeroBar/HeroBar";
 import WhoWeAre from "./Slides/WhoWeAre/WhoWeAre";
 import OurServices from './Slides/OurServices/OurServices';
+import OurClients from './Slides/OurClients/OurClients';
 
 const home = () => {
     return (
@@ -17,6 +18,7 @@ const home = () => {
             </div>
             <WhoWeAre />
             <OurServices />
+            <OurClients />
         </Fragment>
     );
 };

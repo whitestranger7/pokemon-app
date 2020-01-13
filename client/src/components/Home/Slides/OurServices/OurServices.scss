@@ -4,7 +4,7 @@
     overflow: hidden;
     position: relative;
     background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8) ), url('./../../../../assets/main-page-display.jpg');
-    margin: 7rem auto 0 auto;
+    margin: 7rem auto;
 }
 
 .services_container .slide_container .inner_container .header_description h5 {
@@ -24,12 +24,11 @@
     font-family: "Montserrat", sans-serif;
     margin-bottom: 5rem;
     & .header {
-        color: darken($color: #F26522, $amount: 15%);
+        color: darken(#F26522, 15%);
         font-size: 1.5rem;
         margin-bottom: 1rem;
     };
     & .description {
-        color: #fff;
-
+        color: #bfbfbf;
     }
 }

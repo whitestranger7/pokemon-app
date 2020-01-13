@@ -1,0 +1,83 @@
+.clients_header {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    text-rendering: optimizeLegibility;
+}
+
+.slide-container {
+    width: 100%;
+    margin: 7rem auto; 
+}
+  
+.each-slide > div {
+    height: auto;
+    width: 43%;
+    text-align: center;
+    & .client_description {
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 2;
+        color: rgba(0, 0, 0, 0.65);
+        text-align: left;
+    };
+    & .client_credentials {
+        height: 5rem;
+        line-height: 5rem;
+        & .client_photo {
+            border-radius: 50%;
+            background: url('./../../../../assets/girl-919048_640.jpg');
+            width: 5rem;
+            height: 100%;
+            background-size: cover;
+            float: left;
+            margin-right: 1.5rem;
+        };
+        & .client_name {
+            float: left;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.each-slide .first {
+    float: left;
+}
+
+.each-slide .second {
+    float: right;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+  
+.each-fade {
+    display: flex;
+}
+  
+.each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+}
+  
+.each-fade .image-container img {
+    width: 100%;
+}
+  
+.each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}
