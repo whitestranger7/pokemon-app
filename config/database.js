@@ -14,7 +14,11 @@ const termination = chalk.bold.magenta;
 
 //export this function and imported by server.js
 module.exports = function() {
-    mongoose.connect(dbURL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
+    mongoose.connect(dbURL, {
+        useNewUrlParser: true,
+        useCreateIndex: true,
+        useUnifiedTopology: true
+    });
 
     mongoose.connection.on("connected", function() {
         console.log(connected("Mongoose default connection is open"));
