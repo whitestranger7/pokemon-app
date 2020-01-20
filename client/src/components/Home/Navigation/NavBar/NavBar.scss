@@ -24,6 +24,9 @@
                 text-transform: uppercase;
                 &:hover {
                     color: #fff;
+                };
+                & .fa-user {
+                    font-size: 1.5rem;
                 }
             }
         }

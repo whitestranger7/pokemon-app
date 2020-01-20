@@ -7,6 +7,7 @@ import HeroBar from "./HeroBar/HeroBar";
 import WhoWeAre from "./Slides/WhoWeAre/WhoWeAre";
 import OurServices from './Slides/OurServices/OurServices';
 import OurClients from './Slides/OurClients/OurClients';
+import Footer from './../Footer/Footer';
 
 const home = () => {
     return (
@@ -19,6 +20,7 @@ const home = () => {
             <WhoWeAre />
             <OurServices />
             <OurClients />
+            <Footer />
         </Fragment>
     );
 };
