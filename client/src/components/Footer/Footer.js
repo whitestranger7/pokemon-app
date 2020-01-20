@@ -75,8 +75,7 @@ const footer = () => {
                             </div>
                         </Col>
                         <Col sm={4}>
-                            &#9400; ООО &laquo;Покемон&raquo;. All right
-                            reserved.
+                            &#9400; 2020 &laquo;Покемон&raquo;
                         </Col>
                     </Row>
                 </Container>
