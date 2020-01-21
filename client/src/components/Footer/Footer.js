@@ -15,7 +15,7 @@ const footer = () => {
                         <Col>
                             <div>
                                 <div className="icon">
-                                    <i class="fas fa-phone"></i>
+                                    <i className="fas fa-phone"></i>
                                 </div>
                                 <div className="footer__icon--desc">
                                     <div className="main_desc">Contact US</div>
@@ -28,7 +28,7 @@ const footer = () => {
                         <Col>
                             <div>
                                 <div className="icon">
-                                    <i class="fas fa-envelope-open"></i>
+                                    <i className="fas fa-envelope-open"></i>
                                 </div>
                                 <div className="footer__icon--desc">
                                     <div className="main_desc">E-Mail</div>
@@ -41,7 +41,7 @@ const footer = () => {
                         <Col>
                             <div>
                                 <div className="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <i className="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div className="footer__icon--desc">
                                     <div className="main_desc">Location</div>
