@@ -9,7 +9,7 @@ const pageNotFound = () => {
 
     return (
         <div style={styles}>
-            Ooops... Couldn't find such path, sorry 😞
+            Ooops... Couldn't find such path, sorry <span role="img" aria-label="sad">😞</span>
         </div>
     )
 };

@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home/Home';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Login from './components/Login/Login';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
     return (
@@ -12,12 +13,13 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home}/>
+                    <Route exact path="/signup" component={SignUp}/>
                     <Route exact path="/login" component={Login}/>
                     <Route path="*" component={PageNotFound}/>
                 </Switch>
             </Router>
         </div>
     );
-}
+};
 
 export default App;

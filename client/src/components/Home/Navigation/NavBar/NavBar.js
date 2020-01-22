@@ -1,38 +1,39 @@
 import React from "react";
 import "@fortawesome/fontawesome-free";
+import { Link } from "react-router-dom";
 
 import "./NavBar.scss";
 
-const navBar = () => {
+const navBar = props => {
     return (
         <div className="navBar">
             <div className="navBar__left-side">
                 <ul>
                     <li>
-                        <a href="/#">О нас</a>
+                        <Link to="/#">О нас</Link>
                     </li>
                     <li>
-                        <a href="/#">Новости</a>
+                        <Link to="/#">Новости</Link>
                     </li>
                     <li>
-                        <a href="/#">Visa free</a>
+                        <Link to="/#">Visa Free</Link>
                     </li>
                     <li>
-                        <a href="/#">Контакты</a>
+                        <Link to="/#">Контакты</Link>
                     </li>
                 </ul>
             </div>
             <div className="navBar__right-side">
                 <div className="authentication_container">
                     <div className="auth__container--login">
-                        <div className="login">
-                            <a href="/#">Log in</a>
-                        </div>
+                        <Link to="/login">
+                            <button className="login">Log In</button>
+                        </Link>
                     </div>
                     <div className="auth__container--sign-up">
-                        <div className="sign-up">
-                            <a href="/#">Sign Up</a>
-                        </div>
+                        <Link to="/signup">
+                            <button className="sign-up">Sign Up</button>
+                        </Link>
                     </div>
                 </div>
             </div>
