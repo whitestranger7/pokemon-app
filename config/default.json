@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://whitestranger7:vezhnovec550281@pokemon-4dcgv.mongodb.net/test?retryWrites=true&w=majority",
+    "tokenSecret": "grodnopokemon2016"
+}

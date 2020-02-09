@@ -6,15 +6,15 @@ import Logo from './Logo';
 
 const navigation = () => {
     return (
-        <nav className="nav">
-            <div className="left_side">
+        <nav className='nav'>
+            <div className='left_side'>
                 <Logo />
             </div>
-            <div className="right_side">
+            <div className='right_side'>
                 <NavBar />
             </div>
         </nav>
-    )
-}
+    );
+};
 
 export default navigation;

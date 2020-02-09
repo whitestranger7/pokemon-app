@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
-import "./Home.scss";
-import Navigation from "./Navigation/Navigation";
-import Socials from "./Socials/Socials";
-import HeroBar from "./HeroBar/HeroBar";
-import WhoWeAre from "./Slides/WhoWeAre/WhoWeAre";
+import './Home.scss';
+import Navigation from './Navigation/Navigation';
+import Socials from './Socials/Socials';
+import HeroBar from './HeroBar/HeroBar';
+import WhoWeAre from './Slides/WhoWeAre/WhoWeAre';
 import OurServices from './Slides/OurServices/OurServices';
 import OurClients from './Slides/OurClients/OurClients';
 import Footer from './../Footer/Footer';
@@ -12,10 +12,10 @@ import Footer from './../Footer/Footer';
 const home = () => {
     return (
         <Fragment>
-            <div className="hero_img">
+            <div className='hero_img'>
                 <Navigation />
                 <Socials />
-                <HeroBar heroText="Посетите Беларусь с Visa Free и Pokemon" />
+                <HeroBar heroText='Посетите Беларусь с Visa Free и Pokemon' />
             </div>
             <WhoWeAre />
             <OurServices />

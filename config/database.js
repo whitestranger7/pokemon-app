@@ -1,18 +1,14 @@
-//require mongoose module
 const mongoose = require("mongoose");
-
-//require chalk module to give colors to console text
 const chalk = require("chalk");
+const config = require('config');
 
-//require database URL from properties file
-const dbURL = require("./properties").DB;
+const dbURL = config.get('mongoURI');
 
 const connected = chalk.bold.cyan;
 const error = chalk.bold.yellow;
 const disconnected = chalk.bold.red;
 const termination = chalk.bold.magenta;
 
-//export this function and imported by server.js
 module.exports = function() {
     mongoose.connect(dbURL, {
         useNewUrlParser: true,
