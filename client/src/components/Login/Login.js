@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import isEmail from 'validator/lib/isEmail';
-// import isPassword from './../../services/passwordValidation';
+// import isPassword from './../../utils/passwordValidation';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';

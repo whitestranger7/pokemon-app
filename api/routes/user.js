@@ -8,7 +8,8 @@ const router = express.Router();
 
 //get current user information
 router.get('/users/me', auth, async (req, res) => {
-    res.send(req.user);
+    const user = req.user;
+    res.status(200).send({ user });
 });
 
 //create user

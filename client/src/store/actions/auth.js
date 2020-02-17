@@ -1,5 +1,33 @@
-import { REGISTER_SUCCESS, LOGIN_SUCCESS } from './types';
 import axios from 'axios';
+
+import {
+    REGISTER_SUCCESS,
+    LOGIN_SUCCESS,
+    USER_LOADED,
+    AUTH_ERROR,
+    REGISTER_FAIL
+} from './types';
+import setAuthToken from './../../utils/setAuthToken';
+
+//Load user
+export const loadUser = () => async dispatch => {
+    if (localStorage.token) {
+        setAuthToken(localStorage.token);
+    }
+
+    try {
+        const res = await axios.get('/users/me');
+        dispatch({
+            type: USER_LOADED,
+            payload: res.data
+        });
+    } catch (error) {
+        dispatch({
+            type: AUTH_ERROR
+        });
+        console.error('Something goes wrong!');
+    }
+};
 
 //Register user
 export const registerUser = (
@@ -24,7 +52,9 @@ export const registerUser = (
             payload: res.data
         });
     } catch (error) {
-        console.log(error);
+        dispatch({
+            type: REGISTER_FAIL
+        });
     }
 };
 
@@ -43,6 +73,7 @@ export const loginUser = (email, password) => async dispatch => {
         console.log(res.data);
         dispatch({ type: LOGIN_SUCCESS, payload: res.data });
     } catch (err) {
+        dispatch({ type: AUTH_ERROR });
         console.log(err);
     }
 };
